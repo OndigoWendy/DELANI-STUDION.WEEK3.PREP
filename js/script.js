@@ -1,39 +1,18 @@
 
 
-$(document).ready(function()
-{
-    $("#function1").mouseenter(function(event)
-    {
-        event.stopPropagation()
-        $(this).addClass("show");
-    }).mouseleave(function(event)
-    {
-        event.stopPropagation()
-        $(this).removeClass("show");
-    })
-});
-$(document).ready(function()
-{
-    $("#function2").mouseenter(function(event)
-    {
-        event.stopPropagation()
-        $(this).addClass("show");
-    }).mouseleave(function(event)
-    {
-        event.stopPropagation()
-        $(this).removeClass("show");
-    })
+$('.switch').hover(function() {
+    $(this).closest('.functionBlock').hide();
+    $(this).next('div').closest('.portfolioParagraph').show();
+}, function() {
+    $(this).next('div').closest('.portfolioParagraph').hide();
+    $(this).closest('.functionBlock').show();
 });
 
-$(document).ready(function()
-{
-    $("#function3").mouseenter(function(event)
-    {
-        event.stopPropagation()
-        $(this).addClass("show");
-    }).mouseleave(function(event)
-    {
-        event.stopPropagation()
-        $(this).removeClass("show");
-    })
+
+$('.switch').hover(function() {
+    $(this).closest('.avg_words').hide();
+    $(this).next('div').closest('.avg_num').show();
+}, function() {
+    $(this).next('div').closest('.avg_num').hide();
+    $(this).closest('.avg_words').show();
 });
