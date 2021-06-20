@@ -97,6 +97,16 @@ margin: 6%;
   margin:  1%;
 }
 
+.w-52{
+  color: white;
+}
+input{
+  color: white;
+}
+::placeholder {
+  color: white;
+  opacity: 1; 
+}
 #socialMedia{
   width: 100vw;
   padding: 2%  20%;
