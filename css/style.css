@@ -1,0 +1,21 @@
+div.page {
+  min-height:1000px;
+  }
+
+.nav{
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  padding: 1%;
+  width: 50vw;
+  margin: 1% 40%;
+}
+
+li{
+  padding: 4%;
+ 
+}
+
+
+
