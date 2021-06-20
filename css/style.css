@@ -27,3 +27,14 @@ div.page {
   margin: 5%;
   font-weight: 300;
 }
+
+#about{
+  font-size: 1.7vw;
+  margin: 5%;
+  font-weight: 300;
+  
+}
+.functionBlock { width:20vw; height:200px; padding:2%}
+.functionBlock p { visibility: hidden}
+.functionBlock.show p { visibility: visible;}
+

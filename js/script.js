@@ -1,4 +1,39 @@
-$("a").click(function(){
-  var pageId = $(this).attr("data-page");
-  $("html, body").animate({ scrollTop: $("#"+pageId).offset().top }, 1000);
+
+
+$(document).ready(function()
+{
+    $("#function1").mouseenter(function(event)
+    {
+        event.stopPropagation()
+        $(this).addClass("show");
+    }).mouseleave(function(event)
+    {
+        event.stopPropagation()
+        $(this).removeClass("show");
+    })
+});
+$(document).ready(function()
+{
+    $("#function2").mouseenter(function(event)
+    {
+        event.stopPropagation()
+        $(this).addClass("show");
+    }).mouseleave(function(event)
+    {
+        event.stopPropagation()
+        $(this).removeClass("show");
+    })
+});
+
+$(document).ready(function()
+{
+    $("#function3").mouseenter(function(event)
+    {
+        event.stopPropagation()
+        $(this).addClass("show");
+    }).mouseleave(function(event)
+    {
+        event.stopPropagation()
+        $(this).removeClass("show");
+    })
 });
