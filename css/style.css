@@ -3,11 +3,11 @@ div.page {
   }
 
 
-.img-fluid{
+/* .img-fluid{
   max-width: 100%;
   height: auto;
  
-}
+} */
 
 .p1{
   font-size: 50%;
@@ -37,4 +37,24 @@ div.page {
 .functionBlock { width:20vw; height:200px; padding:2%}
 .functionBlock p { visibility: hidden}
 .functionBlock.show p { visibility: visible;}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 100%;
+  padding: 1%;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+
+  padding: 20px;
+ 
+}
+
+#grid1{
+  padding: 5%;
+  width: 15vw;
+}
+
 
