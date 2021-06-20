@@ -1,5 +1,7 @@
 body{
   padding: 0%;
+  
+  
 }
 
 div.page {
@@ -13,22 +15,23 @@ div.page {
  
 }
 
+
 .p1{
-  font-size: 1vw;
+  font-size: 0.8vw;
   color: white;
   padding: 2%;
 }
 
 .w-50{
  margin: 20% 25%;
- padding: 1%;
+ padding: 2%;
  color: white;
 }
 
 .w-51{
   color: white;
   font-size: 2vw;
-  margin: 5%;
+  margin: 3%;
   font-weight: 300;
 }
 
