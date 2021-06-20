@@ -1,3 +1,7 @@
+body{
+  padding: 0%;
+}
+
 div.page {
   min-height:10vh;
   }
@@ -58,3 +62,22 @@ div.page {
 }
 
 
+.w-52{
+ margin: 3% 12%;
+ padding: 3%;
+}
+
+#colFormLabel{
+background-color: transparent;
+color: white;
+padding: 3%;
+margin: 6%;
+
+}
+
+#colFormLabelLg{
+  height: 33vh;
+  background-color: transparent;
+  width: 70vw;
+  margin:  1%;
+}
