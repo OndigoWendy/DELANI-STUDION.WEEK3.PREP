@@ -17,5 +17,21 @@ li{
  
 }
 
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+  background-image: url(images/assets/backgrounds/h_img.jpg);
+}
 
+.first-txt {
+  position: relative;
+  bottom: 50vh ;
+  left: 40vw;
+  font-size: 3vw;
+}
 
+.second-txt {
+  position: relative;
+  bottom: 40vh;
+  left: 40vw;
+}
