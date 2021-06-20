@@ -1,5 +1,5 @@
 div.page {
-  min-height:1000px;
+  min-height:10vh;
   }
 
 .nav{
@@ -23,15 +23,6 @@ li{
   background-image: url(images/assets/backgrounds/h_img.jpg);
 }
 
-.first-txt {
-  position: relative;
-  bottom: 50vh ;
-  left: 40vw;
-  font-size: 3vw;
-}
-
-.second-txt {
-  position: relative;
-  bottom: 40vh;
-  left: 40vw;
+p{
+  font-size: 100%;
 }
