@@ -20,3 +20,10 @@ div.page {
  padding: 1%;
  color: white;
 }
+
+.w-51{
+  color: white;
+  font-size: 2vw;
+  margin: 5%;
+  font-weight: 300;
+}
