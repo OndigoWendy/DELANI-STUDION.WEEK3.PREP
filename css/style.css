@@ -1,21 +1,18 @@
+/* General styles */
 body{
-  padding: 0%;
-  
-  
+  padding: 0%; 
 }
 
 div.page {
   min-height:15vh;
-  }
-
+ }
 
 .img-fluid{
   max-width: 100%;
   height: auto;
- 
 }
 
-
+/* Welcome */
 .p1{
   font-size: 0.8vw;
   color: white;
@@ -28,6 +25,7 @@ div.page {
  color: white;
 }
 
+/* About */
 .w-51{
   color: white;
   font-size: 2vw;
@@ -41,20 +39,13 @@ div.page {
   font-weight: 300;
   
 }
+
+
+/* What we do */
 .functionBlock { width:20vw; height:20vh; padding:2%}
 .functionBlock p { visibility: hidden}
 .functionBlock.show p { visibility: visible;}
 
-/* .col-sm{
-background-color: yellow;
-} */
-/* .row-portfolio{
-  background-color: yellowgreen;
-} */
-/* #fig1{
-  width: 100%;
-  height: auto;
-} */
 
 .grid-container {
   display: grid;
@@ -64,8 +55,7 @@ background-color: yellow;
 }
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
-
-  padding: 20px;
+   padding: 20px;
  
 }
 
@@ -73,57 +63,6 @@ background-color: yellow;
   padding: 5%;
   width: 15vw;
 }
-
-
-.w-52{
- margin: 3% 12%;
- padding: 3%;
-}
-
-#contactImage{
-  height: 80vh;
-  width: 100vw;
-}
-
-#colFormLabel{
-background-color: transparent;
-color: white;
-padding: 3%;
-margin: 6%;
-
-}
-
-#colFormLabelLg{
-  height: 33vh;
-  background-color: transparent;
-  width: 70vw;
-  margin:  1%;
-}
-
-.w-52{
-  color: white;
-}
-input{
-  color: white;
-}
-::placeholder {
-  color: white;
-  opacity: 1; 
-}
-#socialMedia{
-  width: 100vw;
-  padding: 2%  20%;
-}
-#s1{
-  width: 100%;
-  height: auto;
-}
-
-
-.avg_num{
- display: none;
-}
-
 .boxes {
   position: relative;
   width: 100%;
@@ -162,4 +101,54 @@ input{
   font-size: 16px;
   padding: 16px 32px;
 }
+
+
+
+/* Contact Us */
+.w-52{
+ margin: 3% 12%;
+ padding: 3%;
+ color: white;
+}
+
+
+#contactImage{
+  height: 80vh;
+  width: 100vw;
+}
+
+#colFormLabel{
+background-color: transparent;
+color: white;
+padding: 3%;
+margin: 6%;
+
+}
+
+#colFormLabelLg{
+  height: 33vh;
+  background-color: transparent;
+  width: 70vw;
+  margin:  1%;
+}
+
+input{
+  color: white;
+}
+::placeholder {
+  color: white;
+  opacity: 1; 
+}
+
+/* Footer */
+#socialMedia{
+  width: 100vw;
+  padding: 2%  20%;
+}
+#s1{
+  width: 100%;
+  height: auto;
+}
+
+
 
