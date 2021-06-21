@@ -2,11 +2,11 @@
 
 
 $('.switch').hover(function() {
-    $(this).closest('.avg_words').hide();
-    $(this).next('div').closest('.avg_num').show();
+    $(this).closest('.showWords').hide();
+    $(this).next('div').closest('.portfolioParagraph').show();
 }, function() {
-    $(this).next('div').closest('.avg_num').hide();
-    $(this).closest('.avg_words').show();
+    $(this).next('div').closest('.portfolioParagraph').hide();
+    $(this).closest('.showWords').show();
 });
 
 
