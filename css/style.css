@@ -45,9 +45,18 @@ div.page {
 
 
 /* What we do */
-.functionBlock { width:20vw; height:20vh; padding:2%}
-.functionBlock p { visibility: hidden}
-.functionBlock.show p { visibility: visible;}
+.functionBlock { 
+  width:20vw;
+  height:20vh; 
+  padding:2%}
+
+.functionBlock p { 
+  visibility: hidden
+}
+
+.functionBlock.show p { 
+  visibility: visible;
+}
 
 
 .grid-container {
@@ -121,8 +130,6 @@ div.page {
   width: 100vw;
 }
 
-
-
 #mc_embed_signup{
   background:transparent; 
   clear:left; 
@@ -131,8 +138,6 @@ div.page {
  padding: 1% 13%;
 }
 	
-
-
 /* Footer */
 #socialMedia{
   width: 100vw;
