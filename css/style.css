@@ -75,7 +75,7 @@ div.page {
   padding: 4%;
 }
 #grid1{
-  padding: 5%;
+  padding: 2%;
   width: 15vw;
 }
 .boxes {
@@ -104,7 +104,8 @@ div.page {
 }
 
 .boxes:hover .image {
-  opacity: 0.5;
+  opacity:  0.5;
+  
 }
 
 .boxes:hover .middle {
@@ -113,8 +114,9 @@ div.page {
 
 .text {
   color:black;
-  font-size: 16px;
-  padding: 16px 32px;
+  font-size: 2.5vw;
+  padding: 10% 10% 10% 10%;
+  border: solid 2px white;
 }
 
 
