@@ -14,9 +14,9 @@ div.page {
 
 /* Welcome */
 .p1{
-  font-size: 0.8vw;
+  font-size: 1vw;
   color: white;
-  padding: 5%;
+  padding: 9%;
 }
 
 .w-50{
@@ -33,15 +33,14 @@ div.page {
 .w-51{
   color: white;
   font-size: 2vw;
-  margin: 3%;
-  font-weight: 300;
+  margin: 7%;
+  font-weight: 200;
 }
 
 #about{
   font-size: 1.7vw;
   margin: 5%;
-  font-weight: 300;
-  
+  font-weight: 200; 
 }
 
 
@@ -117,35 +116,22 @@ div.page {
  padding: 3%;
  color: white;
 }
-
-
 #contactImage{
   height: 80vh;
   width: 100vw;
 }
 
-#colFormLabel{
-background-color: transparent;
-color: white;
-padding: 3%;
-margin: 6%;
 
-}
 
-#colFormLabelLg{
-  height: 33vh;
-  background-color: transparent;
-  width: 70vw;
-  margin:  1%;
+#mc_embed_signup{
+  background:transparent; 
+  clear:left; 
+  font:14px Helvetica,Arial,sans-serif;
+ width: 60vw; 
+ padding: 1% 13%;
 }
+	
 
-input{
-  color: white;
-}
-::placeholder {
-  color: white;
-  opacity: 1; 
-}
 
 /* Footer */
 #socialMedia{
