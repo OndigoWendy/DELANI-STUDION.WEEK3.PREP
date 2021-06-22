@@ -134,10 +134,34 @@ div.page {
   background:transparent; 
   clear:left; 
   font:14px Helvetica,Arial,sans-serif;
- width: 60vw; 
- padding: 1% 13%;
+ width: 80vw; 
+ padding: 1% 5%;
 }
-	
+
+#mce-EMAIL,#mce-FNAME,#mce-MMERGE3{
+  background: transparent;
+ color: white;
+ 
+}
+
+.name-email{
+ list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  
+}
+#mce-EMAIL{
+margin: 2% 4%;
+}
+
+#mce-FNAME{
+  margin: 2% 1%;
+  
+}
+
+#mce-MMERGE3{
+  height: 30vh;
+}
 /* Footer */
 #socialMedia{
   width: 100vw;
